@@ -9,15 +9,15 @@ type IMapProps = {
 };
 
 const Map = (props: IMapProps) => {
-  const mapContainer = useRef();
+  const mapContainer = useRef<HTMLInputElement | null>(null);
   useEffect(() => {
     const frame: HTMLIFrameElement = document.createElement('iframe');
     frame.src = mapIframeSrc;
     frame.width = props.width || '100%';
-    frame.height = props.height;
-    frame.loading = 'lazy';
-    frame.allowFullScreen = props.allowFullScreen;
-    mapContainer.current.appendChild(frame);
+    frame.height = props.height || '500px';
+    // frame.loading = 'lazy';
+    // frame.allowFullScreen = props.allowFullScreen;
+    mapContainer.current?.appendChild(frame);
   }, []);
 
   return <div ref={mapContainer} />;

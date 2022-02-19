@@ -19,7 +19,7 @@ const Hero = () => {
   return (
     <Background color="bg-gray-100" classes={styles.heroBackground}>
       <Section yPadding="py-6">
-        <NavbarTwoColumns logo={<Logo xl />}>
+        <NavbarTwoColumns logo={<Logo />}>
           <li className="pr-4">
             <Link href="#aboutus">
               <a>About</a>

@@ -1,17 +1,17 @@
 import styles from '../styles/components/Logo.module.scss';
 
-type ILogoProps = {
-  xl?: boolean;
-};
+// type ILogoProps = {
+//   xl?: boolean;
+// };
 
-const Logo = (props: ILogoProps) => {
-  const size = props.xl ? '44' : '32';
-  const fontStyle = props.xl
-    ? 'font-semibold text-3xl'
-    : 'font-semibold text-xl';
+const Logo = () => {
+  // const size = props.xl ? '44' : '32';
+  // const fontStyle = props.xl
+  //   ? 'font-semibold text-3xl'
+  //   : 'font-semibold text-xl';
 
   return (
-    <span className={`text-white inline-flex items-center ${fontStyle}`}>
+    <span className="text-white inline-flex items-center">
       {/* <svg
         className="text-primary-500 stroke-current mr-1"
         xmlns="http://www.w3.org/2000/svg"
