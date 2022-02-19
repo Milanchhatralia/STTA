@@ -1,6 +1,6 @@
 export const AppConfig = {
-  site_name: 'Landing',
-  title: 'STTA',
-  description: 'Spinners Table Tennis Academy',
+  site_name: 'STTA',
+  title: 'Spinners Table Tennis Academy',
+  description: 'Table Tennis Academy in Anand, Gujarat',
   locale: 'en',
 };

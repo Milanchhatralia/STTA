@@ -3,27 +3,22 @@ import { Section } from '../layout/Section';
 
 const VerticalFeatures = () => (
   <Section
-    title="Your title here"
-    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada nisi tellus, non imperdiet nisi tempor at."
+    title="About Us"
+    description="Spinners Table tennis academy takes pride in offering professonal table tennis training under the guidance of national faculties with International standard and TTFI approved equipment, synthetic flooring and all essential utilities."
+    for="aboutus"
   >
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/assets/images/feature.svg"
+      title="Our Mission"
+      description="To provide a state of art facility for TableTennis playing to all, including Persons with Disability (PWD) in Anand District; So as to give an opportunity to children and adults of the society to experience fun in the sport of TableTennis. To provide a state of art facility for TableTennis playing to all, including Persons with Disability (PWD) in Anand District; so as to give an opportunity to children and adults of the society to experience fun in the sport of TableTennis."
+      image="/assets/images/mission.svg"
       imageAlt="First feature alt text"
     />
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/assets/images/feature2.svg"
+      title="Our Vision"
+      description="To uplift the games of players and students to next level; to create platform for competitions, matches and tournaments, to nurture physical & mental health of society via sportsman spirit, fitness and healthy lifestyle."
+      image="/assets/images/vision.svg"
       imageAlt="Second feature alt text"
       reverse
-    />
-    <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/assets/images/feature3.svg"
-      imageAlt="Third feature alt text"
     />
   </Section>
 );
