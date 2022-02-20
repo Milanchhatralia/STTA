@@ -7,7 +7,11 @@ const FooterCopyright = () => (
       ♥
     </span>{' '}
     by{' '}
-    <a href={'https://www.linkedin.com/in/milanchhatralia/'}>
+    <a
+      target="_blank"
+      href={'https://www.linkedin.com/in/milanchhatralia/'}
+      rel="noreferrer"
+    >
       Milan Chhatralia
     </a>
     <style jsx>
